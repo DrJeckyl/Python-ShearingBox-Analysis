@@ -16,6 +16,9 @@ def eta_switch(switch=False):
     if(switch):
 	global resistivity
 	resistivity = 1.4E-7
+    else:
+	global resistivity
+	resistivity = 0.
 
     return
 
